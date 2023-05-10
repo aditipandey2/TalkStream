@@ -1,0 +1,16 @@
+body {
+    background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.4), 
+      rgba(0, 0, 0, 0.3)
+    ),
+    url(https://4kwallpapers.com/images/wallpapers/glitter-glowing-colorful-lights-dark-black-background-5k-4480x2520-274.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
