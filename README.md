@@ -1,70 +1,13 @@
-# Getting Started with Create React App
+The real-time video application project built on the MERN stack (MongoDB, Express.js, React, and Node.js) with Socket.io is an interactive platform that allows users to engage in video communication in real-time. This application enables users to initiate video calls, share their screens, exchange messages, and collaborate remotely.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Here's a breakdown of the components and their functionalities in this project:
 
-## Available Scripts
+MongoDB: It serves as the database to store user information, including authentication details and call history. MongoDB's flexibility and scalability make it suitable for handling large amounts of data.
 
-In the project directory, you can run:
+Express.js: It provides the backend framework for handling HTTP requests, routing, and API development. Express.js simplifies the creation of server-side logic, enabling efficient handling of video call-related tasks.
 
-### `npm start`
+React: The frontend of the application is developed using React, a popular JavaScript library for building user interfaces. React allows for the creation of interactive components, ensuring a smooth and responsive user experience.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Node.js: It serves as the backend runtime environment for executing JavaScript code on the server-side. Node.js enables efficient handling of real-time video communication by leveraging event-driven, non-blocking I/O operations.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Socket.io: Socket.io is a library that enables real-time, bidirectional communication between the server and clients. It establishes a persistent connection between the server and the client, allowing for instant data transmission, such as video streams, messages, and screen sharing.
