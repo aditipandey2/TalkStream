@@ -1,4 +1,4 @@
-The real-time video application project built on the MERN stack (MongoDB, Express.js, React, and Node.js) with Socket.io is an interactive platform that allows users to engage in video communication in real-time. This application enables users to initiate video calls, share their screens, exchange messages, and collaborate remotely.
+The real-time video application project built on the React and Node.js with Socket.io is an interactive platform that allows users to engage in video communication in real-time. This application enables users to initiate video calls, share their screens, exchange messages, and collaborate remotely.
 
 Here's a breakdown of the components and their functionalities in this project:
 
